@@ -1,6 +1,6 @@
 const app = require('./app');
 
-app.listen(3001, ()=> {
+app.listen(process.env.PORT, ()=> {
     console.log("App is runnimg !")
 })
 
